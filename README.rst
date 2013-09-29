@@ -64,9 +64,17 @@ Changes over the original
 The following settings are available to use:
 
 - ``MENUBRAND``: Text and link for the brand of the blog. For example:
+    ::
     [(Jose Jiménez', 'http://josejimenez.net'),]
 
-- ``SOCIAL_SIDEBAR_TOP``: List of social links showed at the top of the sidebar, see an example at http://josejimenez.net
+- ``SOCIAL_SIDEBAR_TOP``: List of social links showed at the top of the sidebar, see an example at http://josejimenez.net For example:   
+
+    ::  
+    SOCIAL_SIDEBAR_TOP = (
+          ('Google+', 'https://plus.google.com/116700712402100417502/posts', '<i class="icon-google-plus-sign"></i>'),
+          ('Twitter', 'https://twitter.com/vrolloc', '<i class="icon-twitter-sign"></i>'),
+          )
+
 - ``HIDE_CATEGORIES_SIDEBAR``: If True, the categories won't be shown in the sidebar.
 
 
