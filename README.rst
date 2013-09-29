@@ -1,3 +1,7 @@
+This theme is completly based on `Maurizio Sambati`_ theme. I have made some changes for my blog http://www.josejimenez.net
+
+To see the changes over the original go to the end of this README.
+
 Octopress Theme for Pelican
 ===========================
 
@@ -48,13 +52,23 @@ Contribute
 #. Fork `the repository`_ on Github
 #. Send a pull request
 
-
 Authors
 -------
 
 - `Maurizio Sambati`_: Initial porting of the theme.
 - `Geoffrey Lehée`_: GitHub plugin, some cleaning and some missing standard Pelican features (social plugins and links).
 - `Ekin Ertaç`_: Open links in other window, add tags and categories.
+
+Changes over the original
+=========================
+The following settings are available to use:
+
+- ``MENUBRAND``: Text and link for the brand of the blog. For example:
+    [(Jose Jiménez', 'http://josejimenez.net'),]
+
+- ``SOCIAL_SIDEBAR_TOP``: List of social links showed at the top of the sidebar, see an example at http://josejimenez.net
+- ``HIDE_CATEGORIES_SIDEBAR``: If True, the categories won't be shown in the sidebar.
+
 
 .. _`Pelican`: http://getpelican.com
 .. _`Octopress`: http://octopress.org
