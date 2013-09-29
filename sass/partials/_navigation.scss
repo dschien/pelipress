@@ -7,6 +7,7 @@ body > nav {
     bottom: 1px solid $nav-border-bottom; }
   padding-top: .35em;
   padding-bottom: .35em;
+  @include border-top-radius(.4em);
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
@@ -47,10 +48,20 @@ body > nav {
     ul.subscription {
       margin-left: .8em;
       float: right;
+      padding-top: .4em;
       li:last-child a { padding-right: 0; }
     }
     ul li {
       margin: 0;
+    }
+    li.header-brand {
+        font-size:1.2em;
+        border-right: 1px solid $nav-border-left;
+        margin-right: .4em;
+        a {
+            padding-right: 1.4em;
+            border-right: 1px solid $nav-border-right;
+        }
     }
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
@@ -63,11 +74,10 @@ body > nav {
       line-height: 1.5em;
     }
     li + li {
-      border-left: 1px solid $nav-border-left;
-      margin-left: .8em;
+      margin-left: .4em;
       a {
+        padding-top: .3em;
         padding-left: .8em;
-        border-left: 1px solid $nav-border-right;
       }
     }
     form {
@@ -130,7 +140,7 @@ body > nav {
       }
     }
   }
-  ul.subscription { position: relative; top: .2em; li, a { border: 0; padding: 0; }}
+  ul.subscription { position: relative; top: .2em; li, a { border: 0;}}
   a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }

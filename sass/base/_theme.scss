@@ -67,6 +67,11 @@ a {
 aside.sidebar a {
   @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
 }
+section#social-sidebar-top a {
+    font-size: 2.5em;
+    text-decoration: none;
+    margin-left: 10px;
+}
 a {
   @include transition(color .3s);
 }
@@ -75,6 +80,7 @@ html {
   background: $page-bg image-url('line-tile.png') top left;
 }
 body {
+  padding-top: 30px;
   > div {
     background: $sidebar-bg $noise-bg;
     border-bottom: 1px solid $page-border-bottom;
