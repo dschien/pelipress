@@ -1,13 +1,11 @@
-This theme is completly based on `Maurizio Sambati`_ theme. I have made some changes for my blog http://www.josejimenez.net
+#Credits
+This theme is completly based on `Maurizio Sambati`_ theme. 
 
-To see the changes over the original go to the end of this README.
+Pelipress
+====================================
 
-Octopress Theme for Pelican
-===========================
-
-This is a theme for `Pelican`_ that looks like `Octopress`_ default theme. I wrote this
-theme for `my personal blog`_.
-
+This is a theme for `Pelican`_ that looks like `Octopress`_ default theme, but with some changes 
+for my personal blog http://josejimenez.net. 
 Why use this theme?
 -------------------
 
