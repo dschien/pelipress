@@ -27,7 +27,7 @@ The following settings are available to use:
 - ``MENUBRAND``: Text and link for the brand of the blog. For example::
 
     ```python
-    [(Jose Jiménez', 'http://josejimenez.net'),]
+    [('Jose Jiménez', 'http://josejimenez.net'),]
     ```
 
 - ``SOCIAL_SIDEBAR_TOP``: List of social links showed at the top of the sidebar, see an example at http://josejimenez.net For example::
