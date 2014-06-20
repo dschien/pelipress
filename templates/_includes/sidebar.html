@@ -5,7 +5,7 @@
         {% endfor %}
     </section>
     <section>
-    <h1>Artículos recientes</h1>
+    <h1>Recent Posts</h1>
     <ul id="recent_posts">
         {% for article in articles[:5] %}
         <li class="post">
@@ -17,7 +17,7 @@
     {% if not HIDE_CATEGORIES_SIDEBAR %}
         {% if categories %}
         <section>
-        <h1>Categorías</h1>
+        <h1>Categories</h1>
         <ul id="recent_posts">
             {% for category, articles in categories %}
             <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
@@ -36,4 +36,5 @@
     {% include '_includes/github.html' %}
     {% include '_includes/social.html' %}
     {% include '_includes/links.html' %}
+    {% include '_includes/twitter_sidebar.html' %}
 </aside>
